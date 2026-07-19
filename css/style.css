@@ -1,0 +1,67 @@
+/* inter font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* font-family: "Outfit", sans-serif; */
+
+/* --------------GENERALES---------- */
+
+body{
+    background-color: #a0c8eb;
+    font-family: "Outfit", sans-serif;
+}
+p{
+    color: hsl(0, 0%, 0%);
+    font-size: 35px;
+    font-weight: 300;
+}
+header, footer{
+    background-color: hsl(209, 75%, 55%);
+}
+a{
+    text-decoration: none;
+}
+header, main, footer{
+    text-align:center;
+}
+h2{
+    font-size: 50px;
+}
+
+/* --------------HEADER------------- */
+
+h1{
+    font-size: 63px;
+    background-color: rgb(58, 95, 128);
+}
+header div nav ul{
+    list-style: none;
+    font-size: 30px;
+    color: rgb(160, 10, 230);
+    background-color: hsl(208, 100%, 39%);
+}
+header div p{
+    font-size: 35px;
+}
+
+/* --------------MAIN--------------- */
+
+main{
+    background-color: rgb(56, 121, 165);
+}
+.lista{
+    font-size: 32px;
+    color: rgb(212, 208, 208);
+    list-style: none;
+}
+figcaption{
+    font-size: 25px;
+}
+.colorFondo{
+    background-color: #3a5f80;
+}
+
+/* --------------FOOTER------------- */
+
+footer ul{
+    list-style: none;
+    font-size: 36px;
+}
